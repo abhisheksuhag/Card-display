@@ -1,8 +1,5 @@
-# React + Vite
+# React + Vite + TailWindCss
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is about changing the background color using buttons with the default color "Olive".
+I have created a color component using hooks, which can be used multiple times to create new buttons of any color.
