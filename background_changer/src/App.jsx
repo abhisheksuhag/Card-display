@@ -17,7 +17,35 @@ function App() {
           >
             Red
           </button>
-          {/* Other color buttons */}
+          <button
+            onClick={() => setColor("green")} // Use setColor to update the color state
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            style={{ backgroundColor: "green" }}
+          >
+            Green
+          </button>
+          <button
+            onClick={() => setColor("blue")} // Use setColor to update the color state
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            style={{ backgroundColor: "blue" }}
+          >
+            Blue
+          </button>
+          <button
+            onClick={() => setColor("pink")} // Use setColor to update the color state
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            style={{ backgroundColor: "pink" }}
+          >
+            Pink
+          </button>
+          <button
+            onClick={() => setColor("lavender")} // Use setColor to update the color state
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            style={{ backgroundColor: "lavender" }}
+          >
+            Lavender
+          </button>
+          
         </div>
       </div>
     </div>
